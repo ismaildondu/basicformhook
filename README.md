@@ -95,11 +95,11 @@ shows debug messages
 ###### not required, defaults to false if not assigned
 
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| returning bag functions       | ?           |
+| ------------- |:-------------:|
+| resetForm()      | right-aligned |
+| col 2 is      | centered      | 
+| zebra stripes | are neat      |  
 
 
 ## License
