@@ -2,7 +2,7 @@
 
 > very simple react form hook
 
-[![NPM](https://img.shields.io/npm/v/basicformhook.svg)](https://www.npmjs.com/package/basicformhook) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+
 
 ## Install
 
