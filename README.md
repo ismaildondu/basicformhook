@@ -4,11 +4,7 @@
 
 
 
-## Install
 
-```bash
-npm install --save basicformhook
-```
 
 ## Usage
 
