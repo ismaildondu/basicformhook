@@ -87,11 +87,26 @@ No value changes are made to the inputs while submitting the form.
 *[debugMode]
 shows debug messages
 
+*[requiredBlurs]
+It is not submitted without clicking on all inputs.
+
+*[forceElement]
+Forces you to create input names on assigned values
+
+*[manuelSubmitsubmittingInputNotChange]
+does not allow changes to entries while submitting
+
 
 requiredBlurs,forceElement,
 manuelSubmitsubmittingInputNotChange and debugMode 
 not required, defaults to false if not assigned
 
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
 
 
 ## License
