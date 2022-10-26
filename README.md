@@ -59,13 +59,13 @@ export default App
 
 
 
-#requiredBlurs
+# requiredBlurs
 It is not submitted without clicking on all inputs.
 
-#forceElement
+# forceElement
 forces you to give the appropriate input name with the value you give
 
-#manuelSubmit
+# manuelSubmit
 You must manually set the submitting values ​​while submitting the form.
 Like:
 ```jsx
@@ -81,18 +81,18 @@ Like:
 
   }
 ```
-#submittingInputNotChange
+# submittingInputNotChange
 No value changes are made to the inputs while submitting the form.
 
-#debugMode
+# debugMode
 shows debug messages
 
 
 
 
-######requiredBlurs,forceElement,
-######manuelSubmit,submittingInputNotChange and debugMode 
-######not required, defaults to false if not assigned
+###### requiredBlurs,forceElement,
+###### manuelSubmit,submittingInputNotChange and debugMode 
+###### not required, defaults to false if not assigned
 
 
 | Tables        | Are           | Cool  |
