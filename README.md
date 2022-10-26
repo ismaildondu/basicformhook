@@ -99,7 +99,10 @@ shows debug messages
 | ------------- |:-------------:|
 | resetForm()   | restores all input as default value |
 | nameResetInput(name)      | restores (name)input as default value      | 
-| zebra stripes | are neat      |  
+| nameChangeInput(name,value) | restores (name)input as (value) value      |  
+| nameTouchedInput(name) | restores (name)input as true in obj.getTouched list      |  
+| setSubmit(value) | set submit status value (IF TRUE manuelSubmit)      |  
+
 
 
 ## License
