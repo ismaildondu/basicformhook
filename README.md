@@ -104,18 +104,15 @@ shows debug messages
 | setSubmit(value) | set submit status value (IF TRUE manuelSubmit)      |  
 
 
-| returning main obj item       | ?           |
+| returning main useBasicFormHook       | ?           |
 | ------------- |:-------------:|
-| getSettings   |     getSettings:{
-      requiredBlurs:UBF_requiredBlurs,
-      forceElement:UBF_forceElement,
-      manuelSubmit:UBF_manuelSubmit,
-      submittingInputNotChange:UBF_submittingInputNotChange
-    } |
-| nameResetInput(name)      | restores (name)input as default value      | 
-| nameChangeInput(name,value) | restores (name)input as (value) value      |  
-| nameTouchedInput(name) | restores (name)input as true in obj.getTouched list      |  
-| setSubmit(value) | set submit status value (IF TRUE manuelSubmit)      |  
+| getSettings   | get all settings useBasicFormHook obj |
+| isSubmitting      | is submitting status      | 
+| getTouched | get touched input lists     |  
+| getValues | get input values     |  
+| onSubmitHandler | onSubmitHandler      |  
+| onChangeHandler | onChangeHandler    |  
+| onBlurHandler | onBlurHandler    |  
 
 
 
