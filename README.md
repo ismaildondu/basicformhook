@@ -81,19 +81,19 @@ Like:
 
   }
 ```
-*[submittingInputNotChange]
+#*[submittingInputNotChange]
 No value changes are made to the inputs while submitting the form.
 
-*[debugMode]
+#*[debugMode]
 shows debug messages
 
-*[requiredBlurs]
+#*[requiredBlurs]
 It is not submitted without clicking on all inputs.
 
-*[forceElement]
+#*[forceElement]
 Forces you to create input names on assigned values
 
-*[manuelSubmitsubmittingInputNotChange]
+#*[manuelSubmitsubmittingInputNotChange]
 does not allow changes to entries while submitting
 
 
