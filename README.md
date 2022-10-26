@@ -56,7 +56,41 @@ export default App
 ```
 
 ## Detail
-Github => github.com/ismailfp/basicformhook
+
+*=If true is []
+
+*[requiredBlurs]
+It is not submitted without clicking on all inputs.
+
+*[forceElement]
+forces you to give the appropriate input name with the value you give
+
+*[manuelSubmit]
+You must manually set the submitting values ​​while submitting the form.
+Like:
+```jsx
+  (values,bag)=>{
+
+    bag.setSubmit(true);
+    /*const get=await new Promise((resolve,reject)=>{
+      setTimeout(()=>{
+        resolve(values)
+      },1000);
+    });*/
+    bag.setSubmit(false);
+
+  }
+```
+*[submittingInputNotChange]
+No value changes are made to the inputs while submitting the form.
+
+*[debugMode]
+shows debug messages
+
+
+requiredBlurs,forceElement,
+manuelSubmitsubmittingInputNotChange and debugMode 
+not required, defaults to false if not assigned
 
 
 

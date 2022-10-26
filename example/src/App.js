@@ -14,14 +14,14 @@ const myForm=useBasicFormHook({
     email:""
   },
   onSubmit: async (values,bag)=>{
-   
+    
+    bag.setSubmit(true);
     const get=await new Promise((resolve,reject)=>{
       setTimeout(()=>{
         resolve(values)
       },1000);
     });
-
-    console.log(get);
+    bag.setSubmit(false);
    
     
  
