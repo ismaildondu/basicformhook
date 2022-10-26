@@ -97,8 +97,8 @@ shows debug messages
 
 | returning bag functions       | ?           |
 | ------------- |:-------------:|
-| resetForm()      | right-aligned |
-| col 2 is      | centered      | 
+| resetForm()   | restores all input as default value |
+| nameResetInput(name)      | restores (name)input as default value      | 
 | zebra stripes | are neat      |  
 
 
