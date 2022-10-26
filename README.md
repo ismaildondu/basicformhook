@@ -57,15 +57,15 @@ export default App
 
 ## Detail
 
-*=If true is []
 
-*[requiredBlurs]
+
+#requiredBlurs
 It is not submitted without clicking on all inputs.
 
-*[forceElement]
+#forceElement
 forces you to give the appropriate input name with the value you give
 
-*[manuelSubmit]
+#manuelSubmit
 You must manually set the submitting values ​​while submitting the form.
 Like:
 ```jsx
@@ -87,18 +87,11 @@ No value changes are made to the inputs while submitting the form.
 #debugMode
 shows debug messages
 
-#requiredBlurs
-It is not submitted without clicking on all inputs.
 
-#forceElement
-Forces you to create input names on assigned values
-
-#manuelSubmitsubmittingInputNotChange
-does not allow changes to entries while submitting
 
 
 ######requiredBlurs,forceElement,
-######manuelSubmitsubmittingInputNotChange and debugMode 
+######manuelSubmit,submittingInputNotChange and debugMode 
 ######not required, defaults to false if not assigned
 
 
