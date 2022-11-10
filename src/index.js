@@ -18,7 +18,8 @@ export const useBasicFormHook = (args) => {
   
   if(typeof UBF_DefaultValues !== 'object'){
     throw new Error('defaultValues must be an object');
-  }else if(typeof UBF_onSubmit !== 'function'){
+  }
+  if(typeof UBF_onSubmit !== 'function'){
     throw new Error('onSubmit must be a function');
   }
   const DEBUGALERT = (from,elements) => {
