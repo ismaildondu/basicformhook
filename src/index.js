@@ -2,17 +2,17 @@ import React from 'react'
 
 export const useBasicFormHook = (args) => {
 
-  const UBF_DefaultValues = args.defaultValues;
-  const UBF_onSubmit = args.onSubmit;
-  const UBF_requiredBlurs = args.requiredBlurs || false;
-  const UBF_forceElement = args.forceElement || false;
-  const UBF_manuelSubmit = args.manuelSubmit || false;
+  const UBF_DefaultValues            = args.defaultValues;
+  const UBF_onSubmit                 = args.onSubmit;
+  const UBF_requiredBlurs            = args.requiredBlurs || false;
+  const UBF_forceElement             = args.forceElement || false;
+  const UBF_manuelSubmit             = args.manuelSubmit || false;
   const UBF_submittingInputNotChange = args.submittingInputNotChange || false;
-  const UBF_debugMode = args.debugMode || false;
+  const UBF_debugMode                = args.debugMode || false;
   
 
-  const [UBF, setUBF] = React.useState(UBF_DefaultValues);
-  const [UBF_touched, setUBF_touched] = React.useState({});
+  const [UBF, setUBF]                           = React.useState(UBF_DefaultValues);
+  const [UBF_touched, setUBF_touched]           = React.useState({});
   const [UBF_isSubmitting, setUBF_isSubmitting] = React.useState(false);
 
   
